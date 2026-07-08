@@ -26,11 +26,12 @@
   <circle cx="128" cy="96" r="7" fill="#f59e0b" opacity="0.9"/>
   <circle cx="152" cy="96" r="7" fill="#22c55e" opacity="0.9"/>
 
-  <text x="104" y="160" fill="#ffffff" font-size="28" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">codex汉化增强版</text>
-  <text x="104" y="196" fill="#b9c8dd" font-size="15" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif">Mac 中文界面 · 模型接入 · 小白工具箱</text>
+  <text x="104" y="154" fill="#ffffff" font-size="27" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">codex汉化增强版</text>
+  <text x="104" y="188" fill="#b9c8dd" font-size="13" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif">Mac 中文界面 · 国产模型接入</text>
+  <text x="104" y="212" fill="#b9c8dd" font-size="13" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif">小白 AI 工具箱 · 自动更新</text>
 
-  <rect x="104" y="236" width="176" height="48" rx="13" fill="url(#blue)"/>
-  <text x="132" y="267" fill="#ffffff" font-size="17" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">Mac Codex 增强</text>
+  <rect x="104" y="244" width="176" height="48" rx="13" fill="url(#blue)"/>
+  <text x="132" y="275" fill="#ffffff" font-size="17" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">Mac Codex 增强</text>
 
   <g fill="#e5efff" font-size="15" font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif" font-weight="650">
     <text x="104" y="326">✓ 菜单与设置中文化</text>
