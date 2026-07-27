@@ -4,6 +4,10 @@ Mac 版 Codex Desktop 简体中文语言包，一键安装汉化。codex汉化�
 
 如果你在搜索 Codex Mac 汉化、Codex 中文、Codex Desktop Mac 汉化、Codex 简体中文、Codex 中文语言包、Codex 国产模型接入或 DeepSeek 接入，本项目就是面向 macOS 桌面 Codex 的一站式增强方案。
 
+## 使用文档
+
+安装、芯片类型选择、增强功能配置和常见问题，请查看：[Codex 汉化增强版使用文档](https://pluscodex888.github.io/codexplus-usage-docs/)。
+
 ![codex汉化增强版概览](assets/codex-plusplus-overview.svg)
 
 ## 关键词
