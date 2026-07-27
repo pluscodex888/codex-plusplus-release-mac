@@ -25,7 +25,8 @@ Mac 版 Codex Desktop 简体中文语言包，一键安装汉化。codex汉化�
 
 ### Mac 专用安装与热更新
 
-- 提供 macOS PKG 安装包，面向 Apple Silicon Mac 使用。
+- 提供 Apple Silicon（arm64）与 Intel（x86_64）两套 macOS PKG 安装包。
+- 同时提供“已有 ChatGPT/Codex”的轻量增强包，以及内置 Codex 的完整安装包。
 - Mac 端使用独立 Release 通道，和 Windows 发布包分开维护，互不影响。
 - 自动更新只识别 macOS 预编译资产，不会误下载 Windows 安装器或 Windows 热更新包。
 - 正式发布资产是预编译产物，用户机器不需要 Node、Go、NSIS 等构建环境。
@@ -72,7 +73,7 @@ Mac 版 Codex Desktop 简体中文语言包，一键安装汉化。codex汉化�
 
 GitHub Release 中面向 Mac 用户的是预编译正式发布资产，包含 macOS PKG 安装包、校验信息、版本元数据和自动更新使用的预编译热更新资产。用户不需要下载源码，也不需要在本机编译。
 
-Mac 手动安装请优先下载 Release 中的 macOS PKG 安装包。自动更新通道使用预编译热更新资产，普通用户不需要手动下载热更新包。
+Mac 手动安装请按芯片类型下载 Release 中对应的 macOS PKG：Apple Silicon 选择 arm64，Intel Mac 选择 Intel/x86_64；未安装官方 Codex 的用户可选择内置 Codex 的完整包。自动更新通道使用预编译热更新资产，普通用户不需要手动下载热更新包。
 
 ## 安全边界
 
@@ -83,5 +84,5 @@ Mac 手动安装请优先下载 Release 中的 macOS PKG 安装包。自动更�
 
 ## 维护方
 
-维护方：AiOpenTool  
+维护方：AiOpenTool
 站点：https://aiopentool.com/
