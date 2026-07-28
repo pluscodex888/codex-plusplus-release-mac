@@ -8,6 +8,12 @@ Mac 版 Codex Desktop 简体中文语言包，一键安装汉化。codex汉化�
 
 安装、芯片类型选择、增强功能配置和常见问题，请查看：[Codex 汉化增强版使用文档](https://pluscodex888.github.io/codexplus-usage-docs/)。
 
+## Windows 版
+
+使用 Windows 的用户请前往：[Codex 汉化增强版 Windows 版](https://github.com/pluscodex888/codex-plusplus-release)。
+
+Mac 与 Windows 使用独立发布仓库，请根据当前系统下载对应版本，避免混用安装包。
+
 ![codex汉化增强版概览](assets/codex-plusplus-overview.svg)
 
 ## 关键词
