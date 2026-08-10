@@ -1,10 +1,10 @@
 # AiOpenTool 桌面增强工具｜macOS
 
-由 AiOpenTool 维护的独立第三方 macOS 桌面增强工具，提供中文界面、插件、第三方模型接入、本地配置档案、小白 AI 工具箱联动和自动更新能力。ChatGPT/Codex 仅用于说明兼容对象，不属于本产品名称。
+由 AiOpenTool 维护的独立第三方 macOS 桌面增强工具，提供中文界面、插件、第三方模型接入、本地配置档案和自动更新能力。ChatGPT/Codex 仅用于说明兼容对象，不属于本产品名称。
 
 > **独立第三方声明：**本项目与 OpenAI、Apple 无隶属、授权、背书或官方合作关系。本项目不包含或重新分发 `ChatGPT.app`、`Codex.app` 或 OpenAI Codex CLI；用户需自行从官方渠道取得原版应用。
 
-Mac PKG 由 AiOpenTool Developer ID Installer 签名并提交 Apple 公证。安装程序仅在用户本机复制并修改用户自行取得的兼容桌面应用，再使用当前用户钥匙串中的 AiOpenTool 本地签名证书重新签名增强副本。该副本不是 Apple 公证对象，也不是 OpenAI 发布或签署的官方应用；删除增强副本或从官方渠道重新安装原版应用，可恢复未增强的使用状态。
+Mac PKG 由 AiOpenTool Developer ID Installer 签名。当前 `v2.0.0` 正式包未执行 Apple 公证、Stapler 或 Gatekeeper 验收，请按自身安全策略决定是否安装。安装程序仅在用户本机复制并修改用户自行取得的兼容桌面应用，再使用当前用户钥匙串中的 AiOpenTool 本地签名证书重新签名增强副本。该副本不是 Apple 公证对象，也不是 OpenAI 发布或签署的官方应用；删除增强副本或从官方渠道重新安装原版应用，可恢复未增强的使用状态。
 
 ## 使用文档
 
@@ -35,7 +35,7 @@ Mac 与 Windows 使用独立发布仓库，请根据当前系统下载对应版�
 
 ### Mac 专用安装与热更新
 
-- 后续通过合规复核的正式版本将提供 Apple Silicon（arm64）与 Intel（x86_64）两套 macOS PKG 安装包。
+- 当前 `v2.0.0` 正式版本提供 Apple Silicon（arm64）与 Intel（x86_64）两套 macOS PKG 安装包。
 - 公开正式渠道只提供不内置官方应用的 slim 增强包。
 - Mac 端使用独立 Release 通道，和 Windows 发布包分开维护，互不影响。
 - 自动更新只识别 macOS 预编译资产，不会误下载 Windows 安装器或 Windows 热更新包。
@@ -58,16 +58,9 @@ Mac 与 Windows 使用独立发布仓库，请根据当前系统下载对应版�
 
 ![模型与账号切换](assets/codex-models-accounts.svg)
 
-### 小白 AI 工具箱内嵌
-
-- Mac 增强包内置小白 AI 工具箱 Mac 安装资产。
-- 插件商店可识别本机工具箱安装状态，并提供打开、安装或修复入口。
-- 本地 HTTP API 使用协议和能力握手，避免工具箱版本不匹配时误调用能力。
-
 ### 新手自动化引导
 
 - 检测到部署服务器、域名解析、备案、模型开户充值等上下文时，显示轻量引导卡片。
-- 可调起小白 AI 工具箱，进入对应页面继续处理。
 - 可结合 AiOpenTool 问答站标签推荐已有答案，减少重复问答。
 - 引导卡片尽量保持小而弱，不遮挡模型正常回答。
 
@@ -81,16 +74,16 @@ Mac 与 Windows 使用独立发布仓库，请根据当前系统下载对应版�
 
 ## 发布包说明
 
-历史 GitHub Release 当前仅保留不包含官方应用的预编译 slim 自动更新资产；旧手动安装包已停止分发。用户不需要下载源码，也不需要在本机编译。
+当前正式版本：[v2.0.0 发布页](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/tag/v2.0.0)。用户不需要下载源码，也不需要在本机编译。
 
-新的手动安装 PKG 将在完成兼容与合规复核后重新提供：Apple Silicon 使用 arm64，Intel Mac 使用 x86_64。用户需要先自行从官方渠道安装兼容桌面应用；公开包不会内置官方应用。自动更新资产供已安装版本的更新通道使用，普通用户不应手动下载。
+请先自行从官方渠道安装兼容桌面应用，再按芯片下载轻量增强包：[Apple Silicon 安装包](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/download/v2.0.0/codex-plusplus-macos-arm64-slim-v2.0.0.pkg)；[Intel 安装包](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/download/v2.0.0/codex-plusplus-macos-x64-slim-v2.0.0.pkg)。公开包不会内置官方应用；自动更新资产供已安装版本的更新通道使用，普通用户不应手动下载。
 
 ## 安全边界
 
 - 不代替用户付款、实名、提交备案或执行不可逆云资源操作。
 - 模型接入凭据和账号相关数据应本地加密保存。
 - 不提供、转售或绕过任何官方账号、订阅、额度或授权能力。
-- Apple 公证仅用于验证提交字节未发现已知恶意软件，不代表 Apple 对本产品、功能或第三方关系的审核、批准或背书。
+- Developer ID 签名仅用于识别发布者和保护包体完整性，不代表 Apple 对本产品、功能或第三方关系的审核、批准或背书；当前版本未执行 Apple 公证。
 - 桌面 Codex 与 VS Code Codex 插件应保持配置隔离，避免互相影响登录态和沙盒设置。
 - Mac 发布通道只消费 macOS 资产；Windows 发布通道继续保持独立。
 
