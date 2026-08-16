@@ -4,7 +4,7 @@
 
 > **独立第三方声明：**本项目与 OpenAI、Apple 无隶属、授权、背书或官方合作关系。本项目不包含或重新分发 `ChatGPT.app`、`Codex.app` 或 OpenAI Codex CLI；用户需自行从官方渠道取得原版应用。
 
-Mac PKG 由 AiOpenTool Developer ID Installer 签名。当前 `v2.2.5` 正式包未执行 Apple 公证、Stapler 或 Gatekeeper 验收，请按自身安全策略决定是否安装。安装程序仅在用户本机复制并修改用户自行取得的兼容桌面应用，再使用当前用户钥匙串中的 AiOpenTool 本地签名证书重新签名增强副本。该副本不是 Apple 公证对象，也不是 OpenAI 发布或签署的官方应用；删除增强副本或从官方渠道重新安装原版应用，可恢复未增强的使用状态。
+Mac PKG 由 AiOpenTool Developer ID Installer 签名。当前 `v2.2.6` 正式包未执行 Apple 公证、Stapler 或 Gatekeeper 验收，请按自身安全策略决定是否安装。安装程序仅在用户本机复制并修改用户自行取得的兼容桌面应用，再使用当前用户钥匙串中的 AiOpenTool 本地签名证书重新签名增强副本。该副本不是 Apple 公证对象，也不是 OpenAI 发布或签署的官方应用；删除增强副本或从官方渠道重新安装原版应用，可恢复未增强的使用状态。
 
 ## 使用文档
 
@@ -35,7 +35,7 @@ Mac 与 Windows 使用独立发布仓库，请根据当前系统下载对应版�
 
 ### Mac 专用安装与热更新
 
-- 当前 `v2.2.5` 正式版本提供 Apple Silicon（arm64）与 Intel（x86_64）两套 macOS PKG 安装包。
+- 当前 `v2.2.6` 正式版本提供 Apple Silicon（arm64）与 Intel（x86_64）两套 macOS PKG 安装包。
 - 公开正式渠道只提供不内置官方应用的 slim 增强包。
 - Mac 端使用独立 Release 通道，和 Windows 发布包分开维护，互不影响。
 - 自动更新只识别 macOS 预编译资产，不会误下载 Windows 安装器或 Windows 热更新包。
@@ -74,9 +74,9 @@ Mac 与 Windows 使用独立发布仓库，请根据当前系统下载对应版�
 
 ## 发布包说明
 
-当前正式版本：[v2.2.5 发布页](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/tag/v2.2.5)。用户不需要下载源码，也不需要在本机编译。
+当前正式版本：[v2.2.6 发布页](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/tag/v2.2.6)。用户不需要下载源码，也不需要在本机编译。
 
-请先自行从官方渠道安装兼容桌面应用，再按芯片下载轻量增强包：[Apple Silicon 安装包](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/download/v2.2.5/codex-plusplus-macos-arm64-slim-v2.2.5.pkg)；[Intel 安装包](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/download/v2.2.5/codex-plusplus-macos-x64-slim-v2.2.5.pkg)。公开包不会内置官方应用；自动更新资产供已安装版本的更新通道使用，普通用户不应手动下载。
+请先自行从官方渠道安装兼容桌面应用，再按芯片下载轻量增强包：[Apple Silicon 安装包](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/download/v2.2.6/codex-plusplus-macos-arm64-slim-v2.2.6.pkg)；[Intel 安装包](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/download/v2.2.6/codex-plusplus-macos-x64-slim-v2.2.6.pkg)。公开包不会内置官方应用；自动更新资产供已安装版本的更新通道使用，普通用户不应手动下载。
 
 ## 安全边界
 
