@@ -16,11 +16,11 @@ Mac PKG 不要求 Developer ID Installer 签名或 Apple 公证，正式发布�
 
 Mac 与 Windows 使用独立发布仓库，请根据当前系统下载对应版本，避免混用安装包。
 
-## 当前正式版：v2.8.5
+## 当前正式版：v2.8.7
 
-- [Apple Silicon（arm64）PKG 安装包](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/download/v2.8.5/codex-plusplus-macos-arm64-slim-v2.8.5.pkg)
-- [Intel（x86_64）PKG 安装包](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/download/v2.8.5/codex-plusplus-macos-x64-slim-v2.8.5.pkg)
-- [v2.8.5 正式 Release（全部资产与校验文件）](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/tag/v2.8.5)
+- [Apple Silicon（arm64）PKG 安装包](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/download/v2.8.7/codex-plusplus-macos-arm64-slim-v2.8.7.pkg)
+- [Intel（x86_64）PKG 安装包](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/download/v2.8.7/codex-plusplus-macos-x64-slim-v2.8.7.pkg)
+- [v2.8.7 正式 Release（全部资产与校验文件）](https://github.com/pluscodex888/codex-plusplus-release-mac/releases/tag/v2.8.7)
 
 请根据 Mac 芯片架构选择对应安装包；每个资产的 `*.sha256` 与 `*.json` 校验/元数据文件均在 Release 中提供。
 
@@ -43,7 +43,7 @@ Mac 与 Windows 使用独立发布仓库，请根据当前系统下载对应版�
 
 ### Mac 专用安装与热更新
 
-- v2.8.5 正式版已提供 Apple Silicon（arm64）与 Intel（x86_64）两套 macOS PKG 安装包。
+- v2.8.7 正式版已提供 Apple Silicon（arm64）与 Intel（x86_64）两套 macOS PKG 安装包。
 - 公开正式渠道只提供不内置官方应用的 slim 增强包。
 - Mac 端使用独立 Release 通道，和 Windows 发布包分开维护，互不影响。
 - 自动更新只识别 macOS 预编译资产，不会误下载 Windows 安装器或 Windows 热更新包。
@@ -84,7 +84,7 @@ Mac 与 Windows 使用独立发布仓库，请根据当前系统下载对应版�
 
 历史 GitHub Release 当前仅保留不包含官方应用的预编译 slim 自动更新资产；旧手动安装包已停止分发。用户不需要下载源码，也不需要在本机编译。
 
-v2.8.5 已提供正式手动安装 PKG：Apple Silicon 使用 arm64，Intel Mac 使用 x86_64。用户需要先自行从官方渠道安装兼容桌面应用；公开包不会内置官方应用。自动更新资产供已安装版本的更新通道使用，普通用户不应手动下载。
+v2.8.7 已提供正式手动安装 PKG：Apple Silicon 使用 arm64，Intel Mac 使用 x86_64。用户需要先自行从官方渠道安装兼容桌面应用；公开包不会内置官方应用。自动更新资产供已安装版本的更新通道使用，普通用户不应手动下载。
 
 ## 安全边界
 
